@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+	--Soft-blue: hsl(215, 51%, 70%);
+	--Cyan: hsl(178, 100%, 50%);
+	--main-BG: hsl(217, 54%, 11%);
+	--card-BG: hsl(216, 50%, 16%);
+	--line: hsl(215, 32%, 27%);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    line-height: 1.5;
+}
+.attribution {
+  color: white;
+  position: fixed;
+  bottom: 15px;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+body {
+  font-size: 18px;
+	min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+	background-color: var(--main-BG);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main {
+	color: var(--Soft-blue);
+	background-color: var(--card-BG);
+	border-radius: 4%;
+	width: 300px;
+	margin: 0 auto;
+  padding: 1rem;
+}
+.nft-img {
+  max-width: 100%;
+  display: block;
+  border-radius: 3%;
+}
+.img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img:hover::before{
+  content: "";
+  border-radius: 3%;
+  position: absolute;
+  inset: 0;
+  background-color: var(--Cyan);
+  opacity: 35%;
+  cursor: pointer;
+}
+.view-icon{
+  position: absolute;
+  display: none;
+  cursor: pointer;
+}
+.img:hover .view-icon{
+  display: block;
+}
+h1{
+  color: white;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+p{
+  font-weight: 300;
+  font-size: .9rem;
+}
+.price{
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price img{
+  margin-right: .5rem;  
+  height: 16px;
+}
+.price span {
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+}
+.price span:first-child{
+  color: var(--Cyan);
+}
+
+.creator{
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+  font-size: .9rem;
+  display: flex;
+  align-items: center;
+}
+.creator img{
+  width: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.creator span{
+  color: white;
+  margin-left: 4px;
+}
+.creator span:hover, h1:hover{
+  color: var(--Cyan);
+  cursor: pointer;
+}
