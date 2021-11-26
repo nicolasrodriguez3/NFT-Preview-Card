@@ -10,7 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Link](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
+- [About me](#about-me)
 
 ## Overview
 
@@ -38,7 +38,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-## Author
+## About me
 
-- Connect with me - [Linkedin](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Connect with me - [Linkedin](https://www.linkedin.com/in/nirodriguez/)
+- Frontend Mentor - [@nicolasrodriguez3](https://www.frontendmentor.io/profile/nicolasrodriguez3)
